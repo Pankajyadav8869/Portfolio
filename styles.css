@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    max-width: 100%;
+  }
+  
+  .featured {
+    margin-bottom: 30px;
+  }
+  
+  .movie-posters {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .movie-poster {
+    text-align: center;
+  }
+  
+  .movie-poster img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+    color: #888;
+  }
+  
